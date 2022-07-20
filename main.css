@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "Roboto Mono";
+    src: url("font/RobotoMono.ttf");
+  }
+
+html,body{
+    height:100%;
+    background-size: cover;
+    background-image: url("images/bg.png");
+    overflow: hidden;
+}
+
+.title-header {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 99px;
+    text-align: center;
+}
+
+.title-subheader {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+    font-style: oblique;
+    color: rgb(44, 51, 84);
+    position: relative;
+    top: -54px;
+    text-align: center;
+}
+
+.maintimer {
+    font-family: "Roboto Mono";
+    font-size: 96px;
+    position: relative;
+    top: 21px;
+    text-align: center;
+}
+
+.timer-button {
+    font-size: 36px;
+}
